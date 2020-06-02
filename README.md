@@ -13,7 +13,7 @@ You can create bash aliases out of the functions ```value``` and ```bulk_value``
   - ```cd domaining```
   - ```source govalue.sh```
   - Use command ```value``` to find individual domain values by entering names
-  - Use command ```bulk_value domains.txt time_interval``` to find bulk GD values for your portfolio names (.txt file containing names, each name in a new line): you need to pass the domains.txt & a time interval like 2s, ```bulk_value expiredlist.txt 2``` if you don't want to delay betwen API requests, enter 0 instead of 2 (not recommended)
+  - Use command ```bulk_value domains.txt time_interval``` to find bulk GD values for your bulk list (.txt file containing names, each name in a new line): you need to pass the domains.txt & a time interval like 2s, ```bulk_value expiredlist.txt 2``` if you don't want to delay betwen API requests, enter 0 instead of 2 (not recommended)
   
 
 
