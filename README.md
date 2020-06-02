@@ -12,8 +12,8 @@ You can create bash aliases out of the functions ```value``` and ```bulk_value``
   - ```git clone https://github.com/hackerpain/domaining```
   - ```cd domaining```
   - ```source govalue.sh```
-  - ```value``` to find individual domain values by entering names
-  - ```bulk_value your_portfolio.txt``` to find bulk GD values for your portfolio names
+  - Use command ```value``` to find individual domain values by entering names
+  - Use command ```bulk_value your_portfolio.txt``` to find bulk GD values for your portfolio names (.txt file containing names, each name in a new line)
   
 
 
