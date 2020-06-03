@@ -16,7 +16,7 @@ Will slowly add more scripts.
 
 # Instructions
 
-You can create bash aliases out of the functions ```value``` and ```bulk_value``` functions in ```govalue.sh``` by adding them to your ```~./bashrc```
+You can create bash aliases out of the functions ```value```, ```bulk_value``` and ```pastsales``` functions in ```govalue.sh``` and ```gdpastsales.sh``` by adding them to your ```~./bashrc```
 
 ## Usage
   - ```git clone https://github.com/hackerpain/domaining```
