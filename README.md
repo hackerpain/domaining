@@ -6,7 +6,7 @@ A repo with simple useful scripts for domainers.
 Currently has very basic GoDaddy value checker bash script just for demo of API usage and to make things more convenient when dealing with large number of domains. 
 Will slowly add more scripts.
 
-**Powered by [SaveBreach](https://twitter.com/savebreach)**
+**<Powered by [SaveBreach](https://twitter.com/savebreach)/>**
 
 ## Features
 
