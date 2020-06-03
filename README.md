@@ -1,5 +1,8 @@
-# Domaining
+# Domaining Automation
 
+![Powered by SaveBreach.com](https://media-exp1.licdn.com/dms/image/C561BAQGBgwds1YjXHg/company-background_10000/0?e=1591254000&v=beta&t=d7XqQom9CEbjIrNt4erKeoV_y-OpwOcKR7FnZhfTDGA)
+
+**Powered by [SaveBreach](https://twitter.com/savebreach)**
 A repo with simple useful scripts for domainers.
 Currently has very basic GoDaddy value checker bash script just for demo of API usage and to make things more convenient when dealing with large number of domains. 
 Will slowly add more scripts.
