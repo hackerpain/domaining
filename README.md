@@ -21,6 +21,7 @@ You can create bash aliases out of the functions ```value```, ```bulk_value``` a
 ```sh
 echo "source path/to/repo/domaining/gdvalue.sh" >> ~/.bashrc
 echo "source path/to/repo/domaining/gdpastsales.sh" >> ~/.bashrc
+source ~/.bashrc
 ```
 And you are good to go
 
