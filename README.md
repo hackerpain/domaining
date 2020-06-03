@@ -30,7 +30,9 @@ You can create bash aliases out of the functions ```value```, ```bulk_value``` a
 ## Credits
 
 Thanks to [SaveBreach](https://www.namepros.com/members/save-breach.1033958/) for conceiving the idea for a collection of free scripts for domaining automation.
+
 Follow [SaveBreach](http://savebreach.com) on [Twitter](http://twitter.com/savebreach) and [LinkedIn](http://linkedin.com/company/savebreach)
+
 Want your name here? Make a pull request with a script you may want to share with other domainers
   
  
