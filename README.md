@@ -2,9 +2,21 @@
 
 ![Powered by SaveBreach.com](https://media-exp1.licdn.com/dms/image/C561BAQGBgwds1YjXHg/company-background_10000/0?e=1591254000&v=beta&t=d7XqQom9CEbjIrNt4erKeoV_y-OpwOcKR7FnZhfTDGA)
 
-A repo with simple useful scripts for domainers.
-Currently has very basic GoDaddy value checker bash script just for demo of API usage and to make things more convenient when dealing with large number of domains. 
-Will slowly add more scripts.
+A repo with simple useful scripts for domainers, that work out of the box, without much config.
+
+Domaining, in the recent years, involves a lot more work than can be managed manually. To be able to efficiently do this work, you need to achieve the right balance between *what you are doing by hand* and what can be automated. This is the core idea behind this of this project.
+
+## To-do's
+
+  - ~~Automation to bulk fetch GD value of your portfolio.~~ **WIP => create more powerful version** 
+  - ~~Command-line tool to fetch GD value of domains manually.~~
+  - ~~Command-line tool to fetch GD Past & Similar sales **alongwith Year of Sale** domains manually.~~
+  -   WIP => Save output in CSV/TXT format, and work with CSV bulk input.
+  -   WIP => SPA (Single Page Application) that can be ran in browser as an alternative to shell scripts.
+  -   Basic portfolio management, and more features... (suspense)
+  -   You suggest! [Make an Issue? PM me?]
+
+Will slowly add more scripts, stay tuned!
 
 **<Powered by [SaveBreach](https://twitter.com/savebreach)/>**
 
@@ -13,7 +25,7 @@ Will slowly add more scripts.
   - More featured, powerful scripts can be made available as per need, [reach out to me to discuss](https://www.namepros.com/members/save-breach.1033958/)
   - This repo utilises the Free GoDaddy API, and is simple to use, doesn't even need authentication which makes it convenient 
   - The GoDaddy API isn't heavily rate-limited which makes it easier to make free tools using it.
-  - Currently, you can find bulk GoValue from a list of domains, by entering the domains and find similar & past sales by entering the domain through command line. This needs ```jq # sudo apt-get install jq or, using your favorite package manager``` to be installed to process the JSON response. You should be able to run shell scripts on your system to use these.
+  - Currently, you can find bulk GoValue from a list of domains, by entering the domains and find similar & past sales by entering the domain through command line. This needs ```jq # sudo apt-get install jq or, using your favorite package manager``` to be installed to process the JSON response. You should be able to run shell scripts on your system to use these scripts.
   
 
 # Instructions
