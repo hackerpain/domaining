@@ -2,9 +2,9 @@
 
 ![Powered by SaveBreach.com](https://media-exp1.licdn.com/dms/image/C561BAQGBgwds1YjXHg/company-background_10000/0?e=1591254000&v=beta&t=d7XqQom9CEbjIrNt4erKeoV_y-OpwOcKR7FnZhfTDGA)
 
-A repo with simple useful scripts for domainers, that work out of the box, without much config.
+A repo with simple **FREE!** useful scripts for domainers, that work out of the box, without much config.
 
-Domaining, in the recent years, involves a lot more work than can be managed manually. To be able to efficiently do this work, you need to achieve the right balance between *what you are doing by hand* and what can be automated. This is the core idea behind this of this project.
+Domaining, in the recent years, involves a lot more work than can be managed manually. To be able to efficiently do this work, you need to achieve the right balance between *what you are doing by hand* and what can be automated. This is the core idea behind this project.
 
 ## To-do's
 
