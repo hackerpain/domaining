@@ -27,7 +27,11 @@ You can create bash aliases out of the functions ```value```, ```bulk_value``` a
   - Use command ```bulk_value domains.txt time_interval``` to find bulk GD values for your bulk list (.txt file containing names, each name in a new line): you need to pass the domains.txt & a time interval like 1s, ```bulk_value expiredlist.txt 1``` if you don't want to delay betwen API requests, enter 0 instead of 1 (not recommended)
   - Use command ```pastsales``` then enter the domain you would like to find past sales & similar sales of.
   
+## Credits
 
+Thanks to [SaveBreach](https://www.namepros.com/members/save-breach.1033958/) for conceiving the idea for a collection of free scripts for domaining automation.
+Follow [SaveBreach](http://savebreach.com) on [Twitter](http://twitter.com/savebreach) and [LinkedIn](http://linkedin.com/company/savebreach)
+Want your name here? Make a pull request with a script you may want to share with other domainers
   
  
   
