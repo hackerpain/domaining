@@ -18,6 +18,12 @@ Will slowly add more scripts.
 
 You can create bash aliases out of the functions ```value```, ```bulk_value``` and ```pastsales``` functions in ```govalue.sh``` and ```gdpastsales.sh``` by adding them to your ```~./bashrc```
 
+```sh
+echo "source path/to/repo/domaining/gdvalue.sh" >> ~/.bashrc
+echo "source path/to/repo/domaining/gdpastsales.sh" >> ~/.bashrc
+```
+And you are good to go
+
 ## Usage
   - ```git clone https://github.com/hackerpain/domaining```
   - ```cd domaining```
