@@ -23,7 +23,16 @@ echo "source path/to/repo/domaining/gdvalue.sh" >> ~/.bashrc
 echo "source path/to/repo/domaining/gdpastsales.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
-And you are good to go
+For ```bulk_value```, make sure, your *input domain list* is in the same format as [this list, *.txt file*](https://github.com/hackerpain/domaining/blob/master/domains.txt).
+
+You can test out ```bulk_value``` by using the following command,
+
+```sh
+bulk_value ./domains.txt 0.5 # You can extend or, reduce the sleep value (2nd argument) between 0.1 to 1 depending on API throttling
+```
+With larger lists, ```bulk_value``` results may become *unreliable.*
+
+And you are good to go.
 
 ## Usage
   - ```git clone https://github.com/hackerpain/domaining```
@@ -41,8 +50,3 @@ Thanks to [SaveBreach](https://www.namepros.com/members/save-breach.1033958/) fo
 Follow [SaveBreach](http://savebreach.com) on [Twitter](http://twitter.com/savebreach) and [LinkedIn](http://linkedin.com/company/savebreach)
 
 Want your name here? Make a pull request with a script you may want to share with other domainers
-  
- 
-  
-
-
