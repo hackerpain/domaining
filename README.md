@@ -9,10 +9,16 @@ Will slowly add more scripts.
 **Powered by [SaveBreach](https://twitter.com/savebreach)**
 
 ## Features
-  - I might offer more powerful scripts should you need them, [reach out to me to discuss](https://www.namepros.com/members/save-breach.1033958/)
+
+  - More featured, powerful scripts can be made available as per need, [reach out to me to discuss](https://www.namepros.com/members/save-breach.1033958/)
   - This repo utilises the Free GoDaddy API, and is simple to use, doesn't even need authentication which makes it convenient 
   - The GoDaddy API isn't heavily rate-limited which makes it easier to make free tools using it.
   - Currently, you can find bulk GoValue from a list of domains, by entering the domains and find similar & past sales by entering the domain through command line. This needs ```jq``` to be installed to process the JSON response. You should be able to run shell scripts on your system to use these.
+  
+ ### Screenshots
+ ![Bulk GoValue](https://i.imgur.com/xLSvzNK.png)
+ ![Individual GoValue](https://i.imgur.com/UjCNjhk.png)
+ ![Past & Similar GoValue Sales Data with Year info](https://i.imgur.com/5U6NfF2.png)
 
 # Instructions
 
@@ -28,7 +34,7 @@ For ```bulk_value```, make sure, your *input domain list* is in the same format 
 You can test out ```bulk_value``` by using the following command,
 
 ```sh
-bulk_value ./domains.txt 0.5 # You can extend or, reduce the sleep value (2nd argument) between 0.1 to 1 depending on API throttling
+bulk_value ./domains.txt 0.5 # You can extend or, reduce the sleep value (2nd argument) between 0.1 to 1 or, more depending on API throttling
 ```
 With larger lists, ```bulk_value``` results may become *unreliable.*
 
