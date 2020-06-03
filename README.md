@@ -15,10 +15,6 @@ Will slowly add more scripts.
   - The GoDaddy API isn't heavily rate-limited which makes it easier to make free tools using it.
   - Currently, you can find bulk GoValue from a list of domains, by entering the domains and find similar & past sales by entering the domain through command line. This needs ```jq``` to be installed to process the JSON response. You should be able to run shell scripts on your system to use these.
   
- ### Screenshots
- ![Bulk GoValue](https://i.imgur.com/xLSvzNK.png)
- ![Individual GoValue](https://i.imgur.com/UjCNjhk.png)
- ![Past & Similar GoValue Sales Data with Year info](https://i.imgur.com/5U6NfF2.png)
 
 # Instructions
 
@@ -56,3 +52,8 @@ Thanks to [SaveBreach](https://www.namepros.com/members/save-breach.1033958/) fo
 Follow [SaveBreach](http://savebreach.com) on [Twitter](http://twitter.com/savebreach) and [LinkedIn](http://linkedin.com/company/savebreach)
 
 Want your name here? Make a pull request with a script you may want to share with other domainers
+
+## Screenshots
+ ![Bulk GoValue](https://i.imgur.com/xLSvzNK.png)
+ ![Individual GoValue](https://i.imgur.com/UjCNjhk.png)
+ ![Past & Similar GoValue Sales Data with Year info](https://i.imgur.com/5U6NfF2.png)
