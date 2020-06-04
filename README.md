@@ -6,6 +6,8 @@ A repo with simple **FREE!** useful scripts for domainers, that work out of the 
 
 Domaining, in the recent years, involves a lot more work than can be managed manually. To be able to efficiently do this work, you need to achieve the right balance between *what you are doing by hand* and what can be automated. This is the core idea behind this project.
 
+**<Powered by [SaveBreach](https://twitter.com/savebreach)/>**
+
 ## To-do's
 
   - ~~Automation to bulk fetch GD value of your portfolio.~~ **WIP => create more powerful version** 
@@ -17,8 +19,6 @@ Domaining, in the recent years, involves a lot more work than can be managed man
   -   You suggest! [Make an Issue? PM me?]
 
 Will slowly add more scripts, stay tuned!
-
-**<Powered by [SaveBreach](https://twitter.com/savebreach)/>**
 
 ## Features
 
