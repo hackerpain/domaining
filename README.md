@@ -14,7 +14,8 @@ Domaining, in the recent years, involves a lot more work than can be managed man
   - ~~Command-line tool to fetch GD value of domains manually.~~
   - ~~Command-line tool to fetch GD Past & Similar sales **alongwith Year of Sale** domains manually.~~
   - ~~**Make Setup script**~~
-  -   WIP => Save output in CSV/TXT format, and work with CSV bulk input.
+  - ~~Authenticated API calls now supported~~
+  -   WIP => Save output in CSV/~~TXT format~~, and work with CSV bulk input.
   -   WIP => SPA (Single Page Application) that can be ran in browser as an alternative to shell scripts.
   -   Basic portfolio management, and more features... (suspense)
   -   You suggest! [Make an Issue? PM me?]
