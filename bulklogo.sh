@@ -2,7 +2,7 @@ bulk_logo () {
      # Optional - gd_domains $1
      while read dom; do
         name=$(echo $dom | cut -d '.' -f 1)
-        curl "https://api-cdn.logolava.com/v1/?margin=.15&w=600&h=300&api_key=$LLkey&txt=$name" > $name.png # without API key workaround: https://api-cdn.logolava.com/v1/?margin=.15&w=1000&h=300&homepage=1&txt=browser
+        curl "https://api-cdn.logolava.com/v1/?margin=.15&w=600&h=300&api_key=$LLkey&txt=$name" > $name.png # without API key workaround: https://api-cdn.logolava.com/v1/?homepage=1&txt=$name
         sleep $2
      done < $1
 }
