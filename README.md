@@ -8,7 +8,7 @@ Domaining, in the recent years, involves a lot more work than can be managed man
 
 **<Powered by [SaveBreach](https://twitter.com/savebreach)/>**
 
-# Currently Supported 
+### Currently Supported 
   - **GoDaddy** - being the biggest registrar, we decided to make some automation with GoDaddy API
 
 ## To-do's
