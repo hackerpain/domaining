@@ -2,7 +2,7 @@
 
 ![Powered by SaveBreach.com](https://media-exp1.licdn.com/dms/image/C561BAQGBgwds1YjXHg/company-background_10000/0?e=1591254000&v=beta&t=d7XqQom9CEbjIrNt4erKeoV_y-OpwOcKR7FnZhfTDGA)
 
-A repo with simple **FREE!** useful scripts for domainers, that work out of the box, without much config.
+A repo with simple **FREE!** useful scripts for domainers to automate common tasks.
 
 Domaining, in the recent years, involves a lot more work than can be managed manually. To be able to efficiently do this work, you need to achieve the right balance between *what you are doing by hand* and what can be automated. This is the core idea behind this project.
 
@@ -19,6 +19,7 @@ Domaining, in the recent years, involves a lot more work than can be managed man
   - ~~**Make Setup script**~~
   - ~~Authenticated API calls now supported~~
   - ~~Fetch and Save ALL GoDaddy domains in txt file~~
+  - ~~**Bulk Logo generator for Domain names**~~
   -   WIP => Save output in CSV/~~TXT format~~, and work with CSV bulk input.
   -   WIP => SPA (Single Page Application) that can be ran in browser as an alternative to shell scripts.
   -   Basic portfolio management, and more features... (suspense)
