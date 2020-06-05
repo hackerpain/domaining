@@ -11,13 +11,14 @@ Domaining, in the recent years, involves a lot more work than can be managed man
 ## Currently Supported Registrars
   - **GoDaddy** - being the biggest registrar, we decided to make some automation with GoDaddy API
 
-## To-do's
+## To-do's & ~~Completed~~
 
   - ~~Automation to bulk fetch GD value of your portfolio.~~ **WIP => create more powerful version** 
   - ~~Command-line tool to fetch GD value of domains manually.~~
   - ~~Command-line tool to fetch GD Past & Similar sales **alongwith Year of Sale** domains manually.~~
   - ~~**Make Setup script**~~
   - ~~Authenticated API calls now supported~~
+  - ~~Fetch and Save ALL GoDaddy domains in txt file~~
   -   WIP => Save output in CSV/~~TXT format~~, and work with CSV bulk input.
   -   WIP => SPA (Single Page Application) that can be ran in browser as an alternative to shell scripts.
   -   Basic portfolio management, and more features... (suspense)
@@ -40,9 +41,11 @@ You can create bash aliases out of the functions ```value```, ```bulk_value``` a
 ```sh
 echo "source path/to/repo/domaining/gdvalue.sh" >> ~/.bashrc
 echo "source path/to/repo/domaining/gdpastsales.sh" >> ~/.bashrc
+echo "source path/to/repo/domaining/gddomains.sh" >> ~/.bashrc
+echo "source path/to/repo/domaining/bulklogo.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
-For ```bulk_value```, make sure, your *input domain list* is in the same format as [this list, *.txt file*](https://github.com/hackerpain/domaining/blob/master/domains.txt).
+For ```bulk_value``` & ```bulk_logo```, make sure, your *input domain list* is in the same format as [this list, *.txt file*](https://github.com/hackerpain/domaining/blob/master/domains.txt).
 
 You can test out ```bulk_value``` by using the following command,
 
@@ -56,11 +59,16 @@ And you are good to go.
 ## Usage
   - ```git clone https://github.com/hackerpain/domaining```
   - ```cd domaining```
+  - Run the setup script - ```source setup.sh```
   - ```source govalue.sh```
   - ```source gdpastsales.sh```
+  - ```source gddomains.sh```
+  - ```source bulklogo.sh```
   - Use command ```value``` to find individual domain values by entering names
   - Use command ```bulk_value domains.txt time_interval``` to find bulk GD values for your bulk list (.txt file containing names, each name in a new line): you need to pass the domains.txt & a time interval like 1s, ```bulk_value expiredlist.txt 1``` if you don't want to delay betwen API requests, enter 0 instead of 1 (not recommended)
   - Use command ```pastsales``` then enter the domain you would like to find past sales & similar sales of.
+  - Use ```gd_domains output_file_name.txt``` to fetch & store all your GD domains in one txt file
+  - Use ```bulk_logo input_domains.txt time_interval``` to generate logos *bulk* for your *domains* from a list of domains in [your text file list](../domains.txt). 
   
 ## Credits
 
