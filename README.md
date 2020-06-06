@@ -31,10 +31,11 @@ Will slowly add more scripts, stay tuned!
 
   - More featured, powerful scripts can be made available as per need, [reach out to me to discuss](https://www.namepros.com/members/save-breach.1033958/)
   - This repo utilises the Free GoDaddy API
+  - Command line GoValue tool
+  - Command line GoValue Related & Past Sales finder tool
   - Supports **Bulk Actions**
-  - Bulk, 
-  - Currently, you can find bulk GoValue from a list of domains, by entering the domains and find similar & past sales by entering the domain through command line. This needs ```jq # sudo apt-get install jq or, using your favorite package manager``` to be installed to process the JSON response. You should be able to run shell scripts on your system to use these scripts.
-  
+  - Bulk **GoValue** script
+  - Bulk **Domain Logo Generator** script  
 
 # Instructions
 
