@@ -13,5 +13,5 @@ bulk_logo () {
 # ------------Another quick hack, if you don't have an API key-----------------
 #
 # 2nd workaround without API key - (working as of now)
-# curl -X "referer: https://www.logolava.com/"  "https://api.logolava.com/v1/?api_key=31337&h=200&w=540&margin=0.07&randicon=0.80&style=fancy&text=ALLtheoptins"
+# curl -X "referer: https://www.logolava.com/"  "https://api.logolava.com/v1/?api_key=31337&h=200&w=540&margin=0.07&randicon=0.80&style=fancy&text=$name"
 
