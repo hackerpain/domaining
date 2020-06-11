@@ -1,6 +1,6 @@
 # Domaining Automation
 
-![Powered by SaveBreach.com](https://media-exp1.licdn.com/dms/image/C561BAQGBgwds1YjXHg/company-background_10000/0?e=1591254000&v=beta&t=d7XqQom9CEbjIrNt4erKeoV_y-OpwOcKR7FnZhfTDGA)
+![Powered by SaveBreach.com](https://i.imgur.com/9IopYYE.png)
 
 A repo with simple **FREE!** useful scripts for domainers to automate common tasks.
 
